@@ -1,21 +1,45 @@
 {
   "name": "slop-to-post",
   "version": "0.1.0",
-  "module": "src/index.ts",
+  "description": "Transform raw AI output into clean, publishable social media posts",
   "type": "module",
-  "private": true,
   "bin": {
     "slop-to-post": "src/index.ts"
   },
+  "files": [
+    "src",
+    "skills",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "build": "bun build src/index.ts --compile --outfile slop-to-post"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
+  "keywords": [
+    "ai",
+    "content",
+    "social-media",
+    "slop",
+    "cli"
+  ],
+  "author": "MIt9",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MIt9/slop-to-post.git"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "homepage": "https://github.com/MIt9/slop-to-post#readme",
+  "bugs": {
+    "url": "https://github.com/MIt9/slop-to-post/issues"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

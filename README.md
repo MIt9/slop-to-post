@@ -1,5 +1,8 @@
 # slop-to-post
 
+> **Remove AI slop from drafts — get clean, human posts** — detect (Slop Score 0-100) and rewrite with strict language matching.
+
+
 CLI tool: detect AI slop in drafts and rewrite them into clean, authentic human posts in the matching source language.
 
 ## Purpose
